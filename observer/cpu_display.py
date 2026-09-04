@@ -1,10 +1,11 @@
 import tkinter as tk
-from observers.observer import Observateur
+from observer.observer import Observateur
 
 class AffichageCPU(Observateur):
 
     def __init__(self, fenetre_parent: tk.Tk):
 
+        self.fenetre = fenetre_parent
         self.frame_cpu = tk.LabelFrame(self.fenetre, text="CPU", padx=10, pady=10)
         self.frame_cpu.pack(fill=tk.X, padx=10, pady=5)
 

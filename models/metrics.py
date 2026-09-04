@@ -1,5 +1,6 @@
+
 import psutil
-from models.subject import Sujet
+from models.sujet import Sujet
 
 class MetriquesSysteme(Sujet):
 

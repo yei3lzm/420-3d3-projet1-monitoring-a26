@@ -13,7 +13,7 @@ class Sujet(ABC):
 
     def notifier(self) -> None:
         for o in self._observateurs :
-            o.acctualiser(self)
+            o.actualiser(self)
     @abstractmethod
     def get_donnees(self) -> dict:
         pass
