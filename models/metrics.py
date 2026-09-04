@@ -20,6 +20,4 @@ class MetriquesSysteme(Sujet):
 
     def get_donnees(self) -> dict:
         # À compléter : Retourner un dictionnaire avec cpu, ram, disque
-        return donnees = { "cpu" : self.cpu,
-                            "ram" : self._ram,
-                             "stockage" : self._stocake}
+        return {"cpu": self._cpu, "ram": self._ram, "stockage": self._disque}
